@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Calvin from "../../public/calvin.jpg"
-import concreteroad from "../../public/concrete-road.jpg"
+import Calvin from "/public/calvin.jpg"
+import concreteroad from "/public/concrete-road.jpg"
 
 export default function Discover() {
   return (

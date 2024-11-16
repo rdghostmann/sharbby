@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,19 +19,19 @@ export default function RootLayout({ children }) {
         <nav className="fixed z-10 bottom-0 left-0 w-full bg-white border-t border-gray-200">
           <ul className="flex justify-around items-center py-10">
             <li className="flex flex-col items-center text-gray-600">
-              <span className="text-xs">Discover</span>
+              <Link href="/discover" className="text-xs">Discover</Link>
             </li>
             <li className="flex flex-col items-center text-blue-600">
-              <span className="text-xs">For You</span>
+              <Link href="/foryou" className="text-xs">For You</Link>
             </li>
             <li className="flex flex-col items-center text-gray-600">
-              <span className="text-xs">My Events</span>
+              <Link href="/myevent" className="text-xs">My Events</Link>
             </li>
             <li className="flex flex-col items-center text-gray-600">
-              <span className="text-xs">Sell</span>
+              <Link href="#" className="text-xs">Sell</Link>
             </li>
             <li className="flex flex-col items-center text-gray-600">
-              <span className="text-xs">My Account</span>
+              <Link href="#" className="text-xs">My Account</Link>
             </li>
           </ul>
         </nav>
