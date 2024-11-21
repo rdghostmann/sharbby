@@ -13,7 +13,7 @@ export default function MyAccount() {
       <header className="bg-primary text-primary-foreground p-6">
         <h1 className="text-lg font-semibold text-center">My Account</h1>
         <div className="mt-4 flex items-center gap-4">
-          <Avatar className="h-12 w-12">
+          <Avatar className="border h-12 w-12">
             <AvatarImage src="/placeholder.svg?height=50&width=50" alt="Vince" />
             <AvatarFallback>V</AvatarFallback>
           </Avatar>
