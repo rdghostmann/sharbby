@@ -1,0 +1,83 @@
+    <div className="bg-white min-h-screen">
+      {/* Header */}
+      <header className="border text-center text-white  py-7 bg-gray-800">
+        <h1 className="text-lg font-semibold ">My Account</h1>
+        <p className="mt-8 text-gray-50">Welcome to <span className="font-bold">ticketmaster</span></p>
+        <button className="w-11/12 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 mt-4 rounded">
+          Sign In
+        </button>
+      </header>
+
+      {/* Notifications */}
+      <section className="mt-6 px-4">
+        <h2 className="font-semibold text-gray-800">Notifications</h2>
+        <div className="mt-4 space-y-3">
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">My Notifications</span>
+            <span className="text-blue-600 font-medium text-sm">{'>'}</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">Receive Notifications?</span>
+            <input
+              type="checkbox"
+              className="toggle-checkbox focus:ring-blue-500 h-5 w-10 rounded-full bg-gray-300 checked:bg-blue-600 cursor-pointer"
+            />
+          </div>
+        </div>
+        <hr className="border mt-5" />
+      </section>
+
+      {/* Location Settings */}
+      <section className="mt-5 px-4">
+        <div className="flex items-center justify-between">
+          <h2 className="font-semibold text-gray-800">Location Settings</h2>
+          <span className="text-xs text-white bg-blue-600 px-2 py-0.5 rounded">NEW!</span>
+        </div>
+        <div className="mt-4 space-y-3">
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">My Location</span>
+            <div className="flex items-center space-x-2">
+              <span className="text-blue-600">Miami, FL</span>
+              <button className="text-blue-600 text-sm">{'✏️'}</button>
+            </div>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">My Country</span>
+            <div className="flex items-center space-x-2">
+              <span className="text-blue-600">United States</span>
+              <button className="text-blue-600 text-sm">{'✏️'}</button>
+            </div>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">Location Based Content</span>
+            <input
+              type="checkbox"
+              className="toggle-checkbox focus:ring-blue-500 h-5 w-10 rounded-full bg-gray-300 checked:bg-blue-600 cursor-pointer"
+              defaultChecked
+            />
+          </div>
+        </div>
+        <hr className="border mt-4" />
+      </section>
+
+      {/* Preferences */}
+      <section className="mt-5 px-4">
+        <h2 className="font-semibold text-gray-800">Preferences</h2>
+        <div className="mt-4 space-y-3">
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">My Favorites</span>
+            <span className="text-blue-600 font-medium text-sm">{'>'}</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">Saved Payment Methods</span>
+            <span className="text-blue-600 font-medium text-sm">{'>'}</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-gray-600">Change App Icon</span>
+            <span className="text-blue-600 font-medium text-sm">{'>'}</span>
+          </div>
+        </div>
+      </section>
+
+  
+    </div>

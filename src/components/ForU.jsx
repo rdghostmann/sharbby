@@ -6,7 +6,7 @@ import pawn from "/public/pawn.png"
 
 export default function ForU() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col px-4 items-center justify-center min-h-screen">
       {/* Center Image */}
       <div className="flex p-4 items-center justify-center w-32 h-32 overflow-hidden bg-gray-200 rounded-full mb-6">
         <Image
@@ -21,7 +21,7 @@ export default function ForU() {
 
       {/* Text Section */}
       <h2 className="text-xl font-semibold mb-2">FIND EVENTS FOR YOU</h2>
-      <p className="text-gray-600 text-center px-4 mb-4">
+      <p className="max-w-96 text-gray-600 text-center px-2 mb-4">
         Get a personalized experience based on the artists, teams, and performers you love.
       </p>
       
