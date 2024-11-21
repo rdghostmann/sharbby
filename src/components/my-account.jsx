@@ -23,7 +23,7 @@ export default function MyAccount() {
           </div>
         </div>
       </header>
-      <div className="p-6 space-y-6">
+      <div className="py-6 px-2 space-y-6">
         <Card>
           <CardHeader>
             <CardTitle>Notifications</CardTitle>
